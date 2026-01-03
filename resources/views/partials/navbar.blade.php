@@ -106,7 +106,7 @@
                             </li>
 
                             <li class="px-6 py-2">
-                                <a href="{{ route('academiccalendar') }}" class="block hover:text-accent transition">
+                                <a href="" class="block hover:text-accent transition">
                                     Academic Calendar
                                 </a>
                             </li>
