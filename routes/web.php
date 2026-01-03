@@ -1,0 +1,30 @@
+<?php
+
+use App\Http\Controllers\HomeController;
+use Illuminate\Support\Facades\Route;
+
+Route::get('/', [HomeController::class, 'homePage'])->name('home');
+
+
+//  about
+Route::get('about', [HomeController::class, 'about'])->name('about');
+
+// other routes...
+Route::get('/why', [HomeController::class, 'why'])->name('why');
+
+// principal message
+Route::get('/principal', [HomeController::class, 'principal'])->name('principalmessage');
+
+// vice principal message
+Route::get('/vice-principal', [HomeController::class, 'vicePrincipal'])->name('viceprincipalmessage');
+
+// missiom and vision
+Route::get('/mission-vision', [HomeController::class, 'missionVision'])->name('missionvision');
+
+// CSR page
+Route::get('/csr', function () {
+    return view('pages.csr');
+})->name('csr');
+
+// Procedures page
+Route::get('/procedures', [HomeController::class, 'procedures'])->name('procedures');
