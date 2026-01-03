@@ -145,7 +145,7 @@
                         <div class="absolute inset-0 animate-shimmer"></div>
                         <span class="relative text-sm font-semibold text-primary flex items-center gap-2">
                             <span class="w-2 h-2 rounded-full bg-accent animate-pulse"></span>
-                            Est. 1990 • New Era Welfare Development Industries
+                            Est. 1990 • New Era Welfare Development Institution
                         </span>
                     </div>
                 </div>

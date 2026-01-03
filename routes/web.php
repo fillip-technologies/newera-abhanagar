@@ -28,3 +28,9 @@ Route::get('/csr', function () {
 
 // Procedures page
 Route::get('/procedures', [HomeController::class, 'procedures'])->name('procedures');
+
+// Annual Fee Structure page
+Route::get('/annual-fee-structure', [HomeController::class, 'annualFeeStructure'])->name('annualfeestructure');
+
+// transfer certificate page
+Route::get('/transfer-certificate', [HomeController::class, 'transferCertificate'])->name('transfercertificate');

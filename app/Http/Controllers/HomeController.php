@@ -50,4 +50,13 @@ class HomeController extends Controller
     {
         return view('pages.procedures');
     }
+    // Annual Fee Structure page
+    public function annualFeeStructure()
+    {
+        return view('pages.annualfeestructure');
+    }
+    public function transferCertificate()
+    {
+        return view('pages.transfercertificate');
+    }
 }

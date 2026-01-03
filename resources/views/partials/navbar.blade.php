@@ -14,8 +14,6 @@
                     class="h-16 w-auto">
             </a>
 
-
-            <!-- DESKTOP NAV -->
             <!-- DESKTOP NAV -->
             <nav class="hidden lg:flex items-center gap-8 text-sm font-medium text-white">
 
@@ -88,15 +86,30 @@
                     <div class="dropdown-menu absolute left-0 top-full mt-3 w-72 bg-white
                     rounded-xl shadow-xl hidden z-50">
                         <ul class="py-3 text-sm text-gray-700">
+
                             <li class="px-6 py-2">
                                 <a href="{{ route('procedures') }}" class="block hover:text-accent transition">
                                     Procedure
                                 </a>
                             </li>
 
-                            <li class="px-6 py-2">Annual Fee Structure</li>
-                            <li class="px-6 py-2">Transfer Certificate</li>
-                            <li class="px-6 py-2">Academic Calendar</li>
+                            <li class="px-6 py-2">
+                                <a href="{{ route('annualfeestructure') }}" class="block hover:text-accent transition">
+                                    Annual Fee Structure
+                                </a>
+                            </li>
+
+                            <li class="px-6 py-2">
+                                <a href="{{ route('transfercertificate') }}" class="block hover:text-accent transition">
+                                    Transfer Certificate
+                                </a>
+                            </li>
+
+                            <li class="px-6 py-2">
+                                <a href="{{ route('academiccalendar') }}" class="block hover:text-accent transition">
+                                    Academic Calendar
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -227,7 +240,7 @@
             <ul class="mobile-dropdown hidden bg-white px-4 py-3 space-y-2
                    border-t border-gray-200 text-gray-600 text-[13.5px]">
                 <li><a href="{{ route('procedures') }}" onclick="closeDrawer()" class="block hover:text-accent">Procedure</a></li>
-                <li><a href="#" onclick="closeDrawer()" class="block hover:text-accent">Annual Fee Structure</a></li>
+                <li><a href="{{ route('annualfeestructure') }}" onclick="closeDrawer()" class="block hover:text-accent">Annual Fee Structure</a></li>
                 <li><a href="#" onclick="closeDrawer()" class="block hover:text-accent">Transfer Certificate</a></li>
                 <li><a href="#" onclick="closeDrawer()" class="block hover:text-accent">Academic Calendar</a></li>
             </ul>
