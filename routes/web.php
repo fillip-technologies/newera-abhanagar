@@ -34,3 +34,12 @@ Route::get('/annual-fee-structure', [HomeController::class, 'annualFeeStructure'
 
 // transfer certificate page
 Route::get('/transfer-certificate', [HomeController::class, 'transferCertificate'])->name('transfercertificate');
+
+// student life
+Route::get('/studentslife', [HomeController::class, 'studentslife'])->name('studentslife');
+
+// parents
+Route::get('/parents', [HomeController::class, 'parents'])->name('parents');
+
+// teaching staff
+Route::get('/teaching-staff', [HomeController::class, 'teachingStaff'])->name('teachingstaff');

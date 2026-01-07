@@ -1,3 +1,11 @@
+@section('content')
+
+<x-hero-banner
+    data-title="Mission, Vision & Values"
+    data-description="Guiding principles that shape learning, character, and responsible global citizenship."
+    data-image="/images/Slier2.jpeg"
+    data-breadcrumb="Mission, Vision & Values" />
+
 <!-- TRANSFER CERTIFICATE -->
 <section class="bg-white py-24 overflow-hidden">
 
@@ -168,3 +176,5 @@
 
     </div>
 </section>
+@endsection
+@extends('layouts.app')

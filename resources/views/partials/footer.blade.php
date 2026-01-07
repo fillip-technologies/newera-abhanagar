@@ -106,9 +106,10 @@
 
     <!-- COPYRIGHT BAR -->
     <div class="bg-primary text-white text-center text-sm py-4">
-        Copyright © 2025 <span id="currentYear"></span> |
+        Copyright © {{ date('Y') }} |
         New Era High School. All Rights Reserved. |
         Designed & Maintained By Fillip Technologies
     </div>
+
 
 </footer>

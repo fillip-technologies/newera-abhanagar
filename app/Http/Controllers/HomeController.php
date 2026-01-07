@@ -55,8 +55,25 @@ class HomeController extends Controller
     {
         return view('pages.annualfeestructure');
     }
+    // transfer certificate page
     public function transferCertificate()
     {
         return view('pages.transfercertificate');
+    }
+    // student life
+    public function studentslife()
+    {
+        return view('pages.studentslife');
+    }
+    // parents
+    public function parents()
+    {
+
+        return view('pages.parents');
+    }
+    // teaching staff
+    public function teachingStaff()
+    {
+        return view('pages.teachingstaff');
     }
 }

@@ -127,9 +127,23 @@
                     <div class="dropdown-menu absolute left-0 top-full mt-3 w-72 bg-white
                     rounded-xl shadow-xl hidden z-50">
                         <ul class="py-3 text-sm text-gray-700">
-                            <li class="px-6 py-2">Students Life</li>
-                            <li class="px-6 py-2">For Parents</li>
-                            <li class="px-6 py-2">New Era Bulletin</li>
+
+                            <li class="px-6 py-2">
+                                <a href="{{ route('studentslife') }}" class="block hover:text-accent transition">
+                                    Students Life
+                                </a>
+                            <li class="px-6 py-2">
+                                <a href="{{ route('parents') }}" class="block hover:text-accent transition">
+                                    For Parents
+                                </a>
+                            <li class="px-6 py-2">
+                                <a href="https://newerajuniorschoolpatna.com/"
+                                    target="_blank"
+                                    class="hover:text-accent transition">
+                                    New Era Bulletin
+                                </a>
+                            </li>
+
                         </ul>
                     </div>
                 </div>
@@ -147,7 +161,8 @@
                     <div class="dropdown-menu absolute left-0 top-full mt-3 w-72 bg-white
                     rounded-xl shadow-xl hidden z-50">
                         <ul class="py-3 text-sm text-gray-700">
-                            <li class="px-6 py-2">Teaching Staff</li>
+                            <li class="px-6 py-2"><a href="{{ route('teachingstaff') }}" class="block hover:text-accent transition">Teaching Staff</a>
+                            </li>
                             <li class="px-6 py-2">Administrative Team</li>
                         </ul>
                     </div>
@@ -260,7 +275,7 @@
                    border-t border-gray-200 text-gray-600 text-[13.5px]">
                 <li><a href="#" onclick="closeDrawer()" class="block hover:text-accent">Students Life</a></li>
                 <li><a href="#" onclick="closeDrawer()" class="block hover:text-accent">For Parents</a></li>
-                <li><a href="#" onclick="closeDrawer()" class="block hover:text-accent">New Era Bulletin</a></li>
+                <li><a href="https://newerajuniorschoolpatna.com/" target="_blank" class="block hover:text-accent">New Era Bulletin</a></li>
             </ul>
         </li>
 
