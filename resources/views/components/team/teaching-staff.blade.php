@@ -67,7 +67,7 @@
                 </h3>
 
                 <p class="text-sm text-gray-500 mb-2">
-                    English Teacher </p>
+                    English Teacher New Era </p>
 
                 <div class="flex justify-center gap-3 text-accent">
                     <i class="fa-solid fa-book-open"></i>
