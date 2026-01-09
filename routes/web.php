@@ -43,3 +43,6 @@ Route::get('/parents', [HomeController::class, 'parents'])->name('parents');
 
 // teaching staff
 Route::get('/teaching-staff', [HomeController::class, 'teachingStaff'])->name('teachingstaff');
+
+// admin team
+Route::get('/administative', [HomeController::class, 'administative'])->name('administrative');

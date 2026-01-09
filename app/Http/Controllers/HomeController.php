@@ -76,4 +76,9 @@ class HomeController extends Controller
     {
         return view('pages.teachingstaff');
     }
+    // adminstrative
+    public function administrative()
+    {
+        return view('pages.administrative');
+    }
 }
