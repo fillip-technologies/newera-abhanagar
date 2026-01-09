@@ -1,10 +1,11 @@
 @section('content')
 
 <x-hero-banner
-    data-title="Corporate & Social Responsibility (CSR)"
-    data-description="Encouraging students to care for society, protect the environment, and grow as responsible, compassionate global citizens."
+    data-title="Our Dedicated Teaching Staff"
+    data-description="Meet our team of qualified, passionate educators committed to nurturing young minds, inspiring curiosity, and shaping confident, lifelong learners."
     data-image="/images/Slier2.jpeg"
-    data-breadcrumb="Corporate & Social Responsibility" />
+    data-breadcrumb="Teaching Staff" />
+
 
 
 <x-team.teaching-staff />

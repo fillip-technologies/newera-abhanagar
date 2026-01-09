@@ -45,4 +45,7 @@ Route::get('/parents', [HomeController::class, 'parents'])->name('parents');
 Route::get('/teaching-staff', [HomeController::class, 'teachingStaff'])->name('teachingstaff');
 
 // admin team
-Route::get('/administative', [HomeController::class, 'administative'])->name('administrative');
+Route::get('/administrative', [HomeController::class, 'administrative'])->name('administrative');
+
+// infra
+Route::get('/infrastructure', [HomeController::class, 'infrastructure'])->name('infrastructure');

@@ -81,4 +81,9 @@ class HomeController extends Controller
     {
         return view('pages.administrative');
     }
+    // infrastructure
+    public function infrastructure()
+    {
+        return view('pages.infrastructure');
+    }
 }

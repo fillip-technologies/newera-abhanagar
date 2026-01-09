@@ -33,7 +33,7 @@
                             <li class="px-6 py-2">
                                 <a href="{{ route('about') }}"
                                     class="block hover:text-accent transition">
-                                    About Us
+                                    About
                                 </a>
                             </li>
 
@@ -163,12 +163,14 @@
                         <ul class="py-3 text-sm text-gray-700">
                             <li class="px-6 py-2"><a href="{{ route('teachingstaff') }}" class="block hover:text-accent transition">Teaching Staff</a>
                             </li>
-                            <li class="px-6 py-2">Administrative Team</li>
+                            <li class="px-6 py-2"><a href="{{ route('administrative') }}" class="block hover:text-accent transition">Administrative Team</a>
+                            </li>
                         </ul>
                     </div>
                 </div>
 
-                <a href="#">Infrastructure</a>
+                <a href="{{ route('infrastructure') }}">Infrastructure</a>
+
                 <a href="#">Mandatory</a>
                 <a href="#">Gallery</a>
                 <a href="#">Contact</a>
