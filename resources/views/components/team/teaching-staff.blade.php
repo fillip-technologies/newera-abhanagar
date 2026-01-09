@@ -24,7 +24,7 @@
         <!-- IMAGE + INTRO CONTENT -->
         <div class="grid lg:grid-cols-2 gap-14 items-center mb-20">
 
-            <!-- LEFT CONTENT -->********
+            <!-- LEFT CONTENT -->
             <div>
                 <h3 class="text-2xl font-semibold text-primary mb-4">
                     Inspiring Minds, Shaping Futures
