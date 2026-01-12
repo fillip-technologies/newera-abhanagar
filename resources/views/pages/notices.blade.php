@@ -2,10 +2,11 @@
 <!-- about-->
 
 <x-hero-banner
-    data-title="Contact Us"
-    data-description="Get in touch with us for admissions, enquiries, or any assistance. We are always here to support parents and students."
-    data-image="/images/contact-hero.jpg"
-    data-breadcrumb="Contact Us" />
+    data-title="School Notices & Circulars"
+    data-description="Stay updated with the latest announcements, circulars, holidays, examinations, and important information for students and parents."
+    data-image="/images/notice-hero.jpg"
+    data-breadcrumb="Notices" />
+
 
 
 
