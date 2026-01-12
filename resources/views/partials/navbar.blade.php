@@ -173,7 +173,7 @@
 
                 <a href="{{ route('mandatorydisclosure') }}">Mandatory Disclosure </a>
                 <a href="{{ route('gallery') }}">Gallery</a>
-                <a href="#">Contact</a>
+                <a href="{{ route('contact') }}">Contact</a>
             </nav>
 
 

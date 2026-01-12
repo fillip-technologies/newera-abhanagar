@@ -97,4 +97,10 @@ class HomeController extends Controller
     {
         return view('pages.gallery');
     }
+
+    // contact
+    public function contact()
+    {
+        return view('pages.contact');
+    }
 }

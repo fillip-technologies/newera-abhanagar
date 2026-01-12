@@ -1,87 +1,74 @@
-<section class="max-w-6xl mx-auto px-6 py-16">
-    <div class="bg-white rounded-2xl shadow-lg border border-gray-200 p-8">
+<section class="max-w-7xl mx-auto px-6 py-16">
+    <!-- Heading -->
+    <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-14">
+        Mandatory Public Disclosure
+    </h2>
 
-        <h2 class="text-3xl font-bold text-center text-gray-800 mb-10">
-            Mandatory Public Disclosure Documents
-        </h2>
+    <!-- Cards Grid -->
+    <div class="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
 
-        <div class="grid md:grid-cols-2 gap-6">
+        <!-- Card 1 -->
+        <div class="bg-white rounded-xl shadow-md border overflow-hidden">
+            <div class="h-[420px] bg-gray-100">
+                <iframe
+                    src="/documents/General-Information-CBSE-NewEraAbhanagar.pdf"
+                    class="w-full h-full"></iframe>
+            </div>
 
-            <!-- PDF 1 -->
-            <a href="/documents/General-Information-CBSE-NewEraAbhanagar.pdf" target="_blank"
-                class="flex items-center justify-between p-5 border rounded-xl hover:shadow-md transition">
-                <span>📄 General Information</span>
-                <span class="text-sm text-gray-500">Download</span>
-            </a>
-
-            <!-- PDF 2 -->
-            <a href="/documents/Affiliation-Certificate-CBSE-NewEraAbhanagar.pdf" target="_blank"
-                class="flex items-center justify-between p-5 border rounded-xl hover:shadow-md transition">
-                <span>📄 CBSE Affiliation Certificate</span>
-                <span class="text-sm text-gray-500">Download</span>
-            </a>
-
-            <!-- PDF 3 -->
-            <a href="/documents/Trust-Registration-Certificate-NewEraAbhanagar.pdf" target="_blank"
-                class="flex items-center justify-between p-5 border rounded-xl hover:shadow-md transition">
-                <span>📄 Trust / Society Registration Certificate</span>
-                <span class="text-sm text-gray-500">Download</span>
-            </a>
-
-            <!-- PDF 4 -->
-            <a href="/documents/NOC-State-Government-NewEraAbhanagar.pdf" target="_blank"
-                class="flex items-center justify-between p-5 border rounded-xl hover:shadow-md transition">
-                <span>📄 State Government NOC</span>
-                <span class="text-sm text-gray-500">Download</span>
-            </a>
-
-            <!-- PDF 5 -->
-            <a href="/documents/Recognition-Certificate-NewEraAbhanagar.pdf" target="_blank"
-                class="flex items-center justify-between p-5 border rounded-xl hover:shadow-md transition">
-                <span>📄 Recognition Certificate</span>
-                <span class="text-sm text-gray-500">Download</span>
-            </a>
-
-            <!-- PDF 6 -->
-            <a href="/documents/Fire-Safety-Certificate-NewEraAbhanagar.pdf" target="_blank"
-                class="flex items-center justify-between p-5 border rounded-xl hover:shadow-md transition">
-                <span>📄 Fire Safety Certificate</span>
-                <span class="text-sm text-gray-500">Download</span>
-            </a>
-
-            <!-- PDF 7 -->
-            <a href="/documents/Building-Safety-Certificate-NewEraAbhanagar.pdf" target="_blank"
-                class="flex items-center justify-between p-5 border rounded-xl hover:shadow-md transition">
-                <span>📄 Building Safety Certificate</span>
-                <span class="text-sm text-gray-500">Download</span>
-            </a>
-
-            <!-- PDF 8 -->
-            <a href="/documents/Water-Health-Sanitation-Certificate-NewEraAbhanagar.pdf" target="_blank"
-                class="flex items-center justify-between p-5 border rounded-xl hover:shadow-md transition">
-                <span>📄 Water, Health & Sanitation Certificate</span>
-                <span class="text-sm text-gray-500">Download</span>
-            </a>
-
-            <!-- PDF 9 -->
-            <a href="/documents/Infrastructure-Details-NewEraAbhanagar.pdf" target="_blank"
-                class="flex items-center justify-between p-5 border rounded-xl hover:shadow-md transition">
-                <span>📄 Infrastructure Details</span>
-                <span class="text-sm text-gray-500">Download</span>
-            </a>
-
-            <!-- PDF 10 -->
-            <a href="/documents/Staff-Details-NewEraAbhanagar.pdf" target="_blank"
-                class="flex items-center justify-between p-5 border rounded-xl hover:shadow-md transition">
-                <span>📄 Teaching & Staff Details</span>
-                <span class="text-sm text-gray-500">Download</span>
-            </a>
-
+            <div class="p-6 text-center">
+                <p class="text-gray-700 font-medium mb-4">
+                    Mandatory Disclosure Details SARAS 6.0
+                </p>
+                <a
+                    href="/documents/General-Information-CBSE-NewEraAbhanagar.pdf"
+                    target="_blank"
+                    class="inline-block bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg text-sm font-medium transition">
+                    Open Full View
+                </a>
+            </div>
         </div>
 
-        <p class="text-sm text-center text-gray-500 mt-10">
-            * All documents are provided as per CBSE Mandatory Public Disclosure guidelines.
-        </p>
+        <!-- Card 2 -->
+        <div class="bg-white rounded-xl shadow-md border overflow-hidden">
+            <div class="h-[420px] bg-gray-100">
+                <iframe
+                    src="/documents/Affiliation-Certificate-CBSE-NewEraAbhanagar.pdf"
+                    class="w-full h-full"></iframe>
+            </div>
+
+            <div class="p-6 text-center">
+                <p class="text-gray-700 font-medium mb-4">
+                    Current Affiliation Certificate
+                </p>
+                <a
+                    href="/documents/Affiliation-Certificate-CBSE-NewEraAbhanagar.pdf"
+                    target="_blank"
+                    class="inline-block bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg text-sm font-medium transition">
+                    Open Full View
+                </a>
+            </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="bg-white rounded-xl shadow-md border overflow-hidden">
+            <div class="h-[420px] bg-gray-100">
+                <iframe
+                    src="/documents/NOC-State-Government-NewEraAbhanagar.pdf"
+                    class="w-full h-full"></iframe>
+            </div>
+
+            <div class="p-6 text-center">
+                <p class="text-gray-700 font-medium mb-4">
+                    Extension by DEO
+                </p>
+                <a
+                    href="/documents/NOC-State-Government-NewEraAbhanagar.pdf"
+                    target="_blank"
+                    class="inline-block bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg text-sm font-medium transition">
+                    Open Full View
+                </a>
+            </div>
+        </div>
 
     </div>
 </section>
