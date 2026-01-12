@@ -179,13 +179,12 @@
 
             <!-- CTA + MOBILE MENU -->
             <div class="flex items-center gap-4">
-                <a href="#"
+                <a href="{{ route('notices') }}"
                     class="hidden lg:inline-flex items-center gap-2 px-5 py-2 rounded-lg
-               bg-accent text-white text-sm font-medium animate-pulse">
+              bg-accent text-white text-sm font-medium animate-pulse"
+                    aria-label="View latest school notices">
 
-                    <!-- Font Awesome Notice Icon -->
                     <i class="fa-solid fa-bell text-sm"></i>
-
                     New Notice
                 </a>
 
@@ -197,6 +196,7 @@
                     </svg>
                 </button>
             </div>
+
 
 
         </div>

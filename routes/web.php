@@ -58,3 +58,6 @@ Route::get('/gallery', [HomeController::class, 'gallery'])->name('gallery');
 
 // contact
 Route::get('/contact', [HomeController::class, 'contact'])->name('contact');
+
+// notices
+Route::get('/notices', [HomeController::class, 'notices'])->name('notices');

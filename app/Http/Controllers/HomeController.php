@@ -103,4 +103,10 @@ class HomeController extends Controller
     {
         return view('pages.contact');
     }
+
+    // notices
+    public function notices()
+    {
+        return view('pages.notices');
+    }
 }
