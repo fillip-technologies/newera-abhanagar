@@ -2,10 +2,10 @@
 <!-- about-->
 
 <x-hero-banner
-    data-title="For Parents"
-    data-description="Essential information, guidelines, and school policies to support your child’s academic journey and overall development."
-    data-image="/images/parents-hero.jpg"
-    data-breadcrumb="For Parents" />
+    data-title="Infrastructure"
+    data-description="State-of-the-art facilities and a safe, well-planned campus designed to enhance learning, creativity, and overall student development."
+    data-image="/images/infrastructure-hero.jpg"
+    data-breadcrumb="Infrastructure" />
 
 
 

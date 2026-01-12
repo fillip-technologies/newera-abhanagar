@@ -49,3 +49,9 @@ Route::get('/administrative', [HomeController::class, 'administrative'])->name('
 
 // infra
 Route::get('/infrastructure', [HomeController::class, 'infrastructure'])->name('infrastructure');
+
+// mandatory disclosure
+Route::get('/mandatory-disclosure', [HomeController::class, 'mandatoryDisclosure'])->name('mandatorydisclosure');
+
+// gallery
+Route::get('/gallery', [HomeController::class, 'gallery'])->name('gallery');

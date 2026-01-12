@@ -86,4 +86,15 @@ class HomeController extends Controller
     {
         return view('pages.infrastructure');
     }
+    // mandatory disclosure
+    public function mandatoryDisclosure()
+    {
+        return view('pages.mandatorydisclosure');
+    }
+
+    // gallery
+    public function gallery()
+    {
+        return view('pages.gallery');
+    }
 }

@@ -171,8 +171,8 @@
 
                 <a href="{{ route('infrastructure') }}">Infrastructure</a>
 
-                <a href="#">Mandatory</a>
-                <a href="#">Gallery</a>
+                <a href="{{ route('mandatorydisclosure') }}">Mandatory Disclosure </a>
+                <a href="{{ route('gallery') }}">Gallery</a>
                 <a href="#">Contact</a>
             </nav>
 
